@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": ["src"],
+  "scripts": {
+    "start": "npm --prefix src run dev",
+    "dev": "npm --prefix src run dev",
+    "build": "npm --prefix src run build",
+    "preview": "npm --prefix src run preview",
+    "lint": "npm --prefix src run lint",
+    "format": "npm --prefix src run format"
+  }
+}
