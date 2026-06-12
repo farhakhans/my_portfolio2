@@ -1,5 +1,6 @@
 {
   "buildCommand": "npm --prefix src run build",
-  "outputDirectory": "src/dist",
-  "framework": "tanstack-start"
+  "outputDirectory": "src/dist/server",
+  "framework": "tanstack-start",
+  "nodeVersion": "20.x"
 }
