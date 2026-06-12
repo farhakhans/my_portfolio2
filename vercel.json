@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm --prefix src run build",
+  "outputDirectory": "src/dist",
+  "framework": "other",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
